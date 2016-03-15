@@ -12,7 +12,27 @@
       <label for="location">Enter a location:</label>
       <input id="location" type="text">
       <button class="btn-success" id="weatherLocation">Get Current Humidity!</button>
+      <button class="btn-success" id="temperature">Get the Current Temperature</button>
       <div class="showWeather"></div>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="temperature" id="celsius" value="celsius" checked>
+          Celsius
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="temperature" id="fahrenheight" value="fahrenheight">
+          Fahrenheight
+        </label>
+      </div>
+      <div class="radio disabled">
+        <label>
+          <input type="radio" name="temperature" id="kelvin" value="kelvin" >
+          Kelvin
+        </label>
+      </div>
     </div>
   </body>
 </html>
