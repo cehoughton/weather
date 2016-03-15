@@ -5,3 +5,23 @@
 .showWeather {
   display: none;
 }
+
+.date {
+  text-align: center;
+}
+
+.btn-success {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+#title {
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.col-xs-2 {
+  border: 1px solid #e6e6e6;
+}

@@ -10,7 +10,7 @@ $(function(){
       for(var j = 0; j < days.length; j++) {
         var avgTemp = 0;
         var day = days[j];
-        var date = response.list[day].dt_txt.substring(5, 10);
+        var date = response.list[day].dt_txt.substring(5, 10).replace("-", '/');
         dates.push(date);
         for(var i = day; i < day+8; i++) {
           avgTemp += response.list[i].main.temp;
