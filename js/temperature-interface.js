@@ -18,9 +18,10 @@ $(function(){
        } else if (tempUnits === "fahrenheight") {
          $('.showWeather').text("The temperature in " + city + " is " + fahren + "F");
        }
-    
+       $('.fiveDay').hide();
+       $('.showWeather').show();
     }).fail(function(error) {
-      $('.showWeather').text(error.message);
+      $('.showWeather').text(error.responseJSON.message);
     });
   });
 });
