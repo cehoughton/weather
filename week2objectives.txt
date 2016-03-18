@@ -1,0 +1,33 @@
+Week one Objectives
+
+
+  create an asset pipeline using Gulp
+  Manage build dependencies with npm
+  Manage front-end dependencies with Bower
+  make requests to abadkend server using AJAX
+  Use SASS for improved styling of your pages
+  Parse JSON responses to AJAX requests
+
+  WEEK TWO
+  Angular JS
+
+  client-side MVCs have emeged
+  MVC - model-view -controller
+    scales better
+    simpler code
+    fewer bugs
+
+    angykar enber and react
+
+    organize apps user interace into COMPONENTS - pieces of a user intergace
+
+    Data down actions up parent components send data down to their child components
+    child compinents can emt actions upto their parents
+
+    mapping of a URL to component  routing
+
+    DATA= MODEL
+
+    TYPESCRIPT  A SUPERSET OF JAVASCRIPT that compiles to plain javascript whichruns inany browser
+
+    Typscript allows you to define types for your data
